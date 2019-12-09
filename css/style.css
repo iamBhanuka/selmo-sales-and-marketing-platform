@@ -1,0 +1,258 @@
+
+#img{
+  object-fit: cover;
+  object-position: center;
+  width: 150px;
+  height: 150px;
+}
+
+table {
+    border-collapse: collapse;
+    background-color: #f2f2f2;
+    width: 80%;
+}
+table th {
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: center;
+    font-size: 22px;
+    font-style: em;
+    color: white;
+    background-color: #024457; 
+
+    
+
+}
+table, td, th {
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: center;
+    font-size: 22px;
+    font-style: em;
+
+
+}
+
+.admin_view_product_table{
+  table-layout: auto;
+}
+.admin_view_users_table{
+
+  table-layout: auto;
+}
+.admin_view_vendors_table{
+
+  table-layout: auto;
+}
+.view_vendors_products_table{
+  background-color: #f2f2f2;
+  color: #024457;
+  border-color: black;
+  border-style: solid;
+  table-layout: auto;
+
+}
+
+
+.log-box{
+  width: 400px;
+  padding: 50px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #1A1A1D;
+  text-align: center;
+  border-radius: 50px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+
+}
+.log-box h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+
+}
+.log-box input[type = "email"],.log-box input[type = "password"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #950740;
+  padding: 14px 10px;
+  width: 200px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+}
+.log-box input[type = "text"]:focus,.log-box input[type = "password"]:focus,.log-box input[type = "email"]:focus{
+  width: 280px;
+  border-color: #6F2232;
+}
+.log-box input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #950740;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.log-box input[type = "submit"]:hover{
+  background: #6F2232;
+}
+
+.log-box p{
+  color: white;
+}
+.log-box a{
+  color: white;
+
+}
+.log-box a:hover{
+  color: #6F2232;
+}
+///////////////////////////////////////////////
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background: #34495e;
+}
+.reg-box{
+  width: 400px;
+  padding: 50px;
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #1A1A1D;
+  text-align: center;
+  border-radius: 50px;
+}
+.reg-box h1{
+  color: white;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.reg-box input[type = "text"],.reg-box input[type = "password"],.reg-box input[type = "email"],.reg-box input[type = "number"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #950740;
+  padding: 14px 10px;
+  width: 400px;
+  outline: none;
+  color: white;
+  border-radius:0;
+ 
+}
+.reg-box textarea{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #950740;
+  padding: 14px 10px;
+  width: 400px;
+  outline: none;
+  color: white;
+  border-radius:0;
+ 
+}
+.reg-box input[type = "submit"]{
+  border:0;
+  background: none;
+  display: block;
+  margin: 20px auto;
+  text-align: center;
+  border: 2px solid #950740;
+  padding: 14px 40px;
+  outline: none;
+  color: white;
+  border-radius: 24px;
+  transition: 0.25s;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+.reg-box input[type = "submit"]:hover{
+  background: #6F2232;
+}
+
+.reg-box p{
+  color: white;
+}
+.reg-box a{
+  color: white;
+
+}
+.reg-box a:hover{
+  color: #6F2232;
+}
+
+  
+.about{
+  width: 600px;
+  padding: 50px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #1A1A1D;
+  text-align: center;
+  border-radius: 50px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.about p{
+  color: white;
+  font-size: 20px;
+
+}
+
+.contact{
+  width: 600px;
+  padding: 50px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #1A1A1D;
+  text-align: center;
+  border-radius: 50px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.contact ul{
+  list-style: none;
+  color: white;
+  font-size: 20px;
+  text-align: left;
+}
+
+.help{
+  width: 800px;
+  padding: 50px;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  background: #1A1A1D;
+  text-align: ;
+  border-radius: 50px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+.help ul li{
+  color: white;
+  font-size: 20px;
+
+}
